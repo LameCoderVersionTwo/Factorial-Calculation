@@ -1,5 +1,5 @@
-maxNumber = int(input('What will the maximum count be?: '))
-numberIncrease = int(input('What will be the number added per round?: '))
+maxNumber = int(input('What will the maximum count be? (any large numbers over 500k may take a while to calculate): '))
+numberIncrease = int(input('What will be the number added per round?(any small numbers in proportion to maximum count may take a very long time): '))
 number1 = 0
 while (number1 < maxNumber):
 	import sys
