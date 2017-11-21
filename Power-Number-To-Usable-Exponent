@@ -1,0 +1,8 @@
+import decimal
+number1 = int(input("This calculates the exponent of large numbers, what is the baseline number you'd like to calculate? "))
+exponent1 = int(input("What would you like the exponent to be? "))
+while True:
+  output = number1 ** exponent1
+  x = decimal.Decimal(output)
+  print(format(x, '.6e'))
+  break
