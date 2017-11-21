@@ -1,8 +1,8 @@
 import sys
 import functools
 import decimal
-type = input("exponent, or normal")
-if type == "normal":
+type = input("exponent, or normal (e or n)")
+if type == "normal" or type == "n":
   numberToBeFactorialed = int(input("Number to be reverse factorialed: "))
   while True:
     endFactorial = numberToBeFactorialed / 2
@@ -15,7 +15,7 @@ if type == "normal":
         break
     break
   
-elif type == "exponent":
+elif type == "exponent" or type == "e":
       number1 = int(input("Number below the exponent: "))
       exponent1 = int(input("Exponent: "))
       while True:
